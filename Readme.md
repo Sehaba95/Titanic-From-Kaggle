@@ -35,4 +35,22 @@ The file "train.csv" contain data (Features and Targets) for train the model. Th
 	<tr> <td>K-Neighbors Classifier</td> <td>0.6507177033492823</td> </tr>
 </table>
 
+<h2>Requirements</h2>
+Python 2.7 and up
 
+<h2>Installation</h2>
+The followoing are the prerequiste Python modules that needs to be installed to execute main.py:
+
+	sudo pip install pandas 
+	sudo pip install -U scikit-learn
+
+<h2>Downloads</h2>
+Clone the repository using the below mentioned command and execute the Python program.
+	
+	git clone https://github.com/Sehaba95/Titanic-From-Kaggle.git
+	cd Titanic-From-Kaggle/Classifiers
+	python SupportVectorClassifier.py
+
+<h2>Authors</h2>
+
+[Sehaba Amine](https://github.com/Sehaba95)
