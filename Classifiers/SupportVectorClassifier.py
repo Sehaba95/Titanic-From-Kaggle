@@ -39,7 +39,5 @@ classifier.fit(X_train,Y_train)
 #Calculate the score (Accuracy)
 score = classifier.score(X_test,Y_test)
 
-predict = classifier.predict(X_test)
-
 #Printing the score
 print(score)

@@ -31,9 +31,8 @@ le = preprocessing.LabelEncoder()
 X_train = X_train.apply(le.fit_transform)	
 X_test = X_test.apply(le.fit_transform)	
 
-#Create a Support Vector Classifier instance 
+#Create a Logistic Regression instance 
 classifier = LogisticRegression(C=1.0, penalty='l1')
-#classifier = LogisticRegression(C=1.0, penalty='l2')
 
 #Fit the classifier
 classifier.fit(X_train,Y_train)

@@ -31,7 +31,7 @@ le = preprocessing.LabelEncoder()
 X_train = X_train.apply(le.fit_transform)	
 X_test = X_test.apply(le.fit_transform)	
 
-#Create a Support Vector Classifier instance 
+#Create a Random Forest Classifier instance 
 classifier = RandomForestClassifier(max_depth=3, n_estimators=10, max_features=1)
 
 #Fit the classifier
