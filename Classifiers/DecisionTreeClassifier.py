@@ -31,7 +31,7 @@ le = preprocessing.LabelEncoder()
 X_train = X_train.apply(le.fit_transform)	
 X_test = X_test.apply(le.fit_transform)	
 
-#Create a Support Vector Classifier instance 
+#Create a Decision Tree Classifier instance 
 classifier = DecisionTreeClassifier(max_depth=3)
 
 #Fit the classifier

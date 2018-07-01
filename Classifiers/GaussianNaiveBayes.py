@@ -30,7 +30,7 @@ le = preprocessing.LabelEncoder()
 X_train = X_train.apply(le.fit_transform)	
 X_test = X_test.apply(le.fit_transform)	
 
-#Create a Support Vector Classifier instance 
+#Create a Gaussian Naive Bayes instance 
 classifier = GaussianNB()
 
 #Fit the classifier
